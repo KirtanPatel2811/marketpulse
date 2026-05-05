@@ -1,5 +1,5 @@
 ﻿# Data fetching
-yfinance==0.2.40
+yfinance>=0.2.54
 newsapi-python==0.2.7
 alpha-vantage==2.3.1
 requests==2.31.0
@@ -10,7 +10,7 @@ numpy==1.26.4
 
 # NLP / Sentiment
 transformers==4.38.2
-torch==2.2.1
+torch==2.2.1+cu118
 sentencepiece==0.2.0
 
 # Technical indicators
