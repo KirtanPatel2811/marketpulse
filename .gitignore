@@ -1,0 +1,47 @@
+﻿# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Conda / venv
+env/
+venv/
+.venv/
+
+# Data and cache (never commit raw data or DB files)
+data/cache/
+*.db
+*.sqlite
+*.sqlite3
+
+# Model weights (large files)
+models/*.pt
+models/*.pth
+models/*.pkl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
